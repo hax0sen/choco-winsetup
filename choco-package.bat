@@ -9,7 +9,6 @@ powershell -NoProfile -ExecutionPolicy Bypass -Command "iex ((New-Object System.
 choco feature enable -n=allowGlobalConfirmation
 pause
 echo Now chocolatey is ready
-echo .
 pause
 choco install git.install -y --params "/GitAndUnixToolsOnPath /NoAutoCrlf /WindowsTerminal"
 call refreshenv
