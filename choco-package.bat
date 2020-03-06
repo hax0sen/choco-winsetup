@@ -23,18 +23,20 @@ choco pin add -n=googlechrome
 choco install lastpass-chrome
 
 
-# code & hacking 
+# code 
 // ------
 choco install vscode
 choco pin add -n vscode
 choco install wireshark
+choco install putty-cac
 choco install putty.install
+choco install docker-desktop
 choco install winscp.install
 choco install rufus
 choco install virtualbox
 choco install vagrant
 choco install cmder
-choco install hub
+choco install nmap
 choco install github-desktop
 choco install ccleaner
 
@@ -55,7 +57,7 @@ choco install vlc
 choco install keepass
 choco install lastpass
 
-## Windows 10 Config
+# windows optionals
 // ------
 Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
 
