@@ -10,7 +10,6 @@ choco feature enable -n=allowGlobalConfirmation
 pause
 echo chocolatey is ready
 pause
-choco install git.install -y --params "/GitAndUnixToolsOnPath /NoAutoCrlf /WindowsTerminal"
 call refreshenv
 
 # Web
@@ -19,8 +18,6 @@ choco install firefox flashplayerplugin
 choco pin add -n=firefox
 choco install googlechrome
 choco pin add -n=googlechrome
-#plugins
-choco install lastpass-chrome
 
 
 # code 
@@ -55,7 +52,6 @@ choco install spotify
 choco install 7zip
 choco install vlc
 choco install keepass
-choco install lastpass
 
 # windows optionals
 // ------
